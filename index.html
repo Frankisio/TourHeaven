@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour-Heaven - Descubre el Mundo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tour-Heaven</h1>
+        <nav>
+            <ul>
+                <li><a href="#atracciones">Atracciones</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="atracciones">
+            <h2>Atracciones Destacadas</h2>
+            <p>Explora algunos de los destinos más increíbles:</p>
+            <ul>
+                <li>Islas Maldivas</li>
+                <li>Machu Picchu, Perú</li>
+                <li>Torre Eiffel, París</li>
+                <li>Gran Cañón, EE. UU.</li>
+                <li>Santorini, Grecia</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <p>Pronto tendrás acceso a nuestra galería de fotos de los destinos.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="submit_form.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tour-Heaven. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
